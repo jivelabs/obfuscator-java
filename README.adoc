@@ -1,0 +1,45 @@
+image:https://travis-ci.com/devxchangeio/obfuscator-java.svg?branch=master["Build Status", link="https://travis-ci.com/devxchangeio/obfuscator-java"]
+
+## obfuscator
+
+Obfuscator framework provides simplified configuration to obfuscate the sensitive field while logging the data.
+
+## Maven Repo 
+```
+maven { url "https://dl.bintray.com/m2/release/"}
+
+```
+
+## Dependencies
+
+```
+compile ("io.devxchange:obfuscator:0.0.1")
+	
+```
+
+## Usage
+
+
+### Demo Project 
+
+https://github.com/devxchange-blog/obfuscator-demo.git[obfuscator-demo]
+
+## Release History
+
+** 0.0.1
+    * obfuscate json - using md5, sha256, fixedMask, matchedMask.
+    * obfuscate xml - using md5, sha256, fixedMask, matchedMask.
+
+## Meta
+Karthikeyan Sadayamuthu – https://www.linkedin.com/in/ksadayamuthu/[LinkedIn]
+
+Distributed under the Apache License. See ``LICENSE`` for more information. https://github.com/devxchange/obfuscator-java/blob/master/LICENSE[license]
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
